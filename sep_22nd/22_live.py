@@ -24,7 +24,7 @@ def recur(level, acc_height):
     # 가지치기
     if acc_height >= B:
         ans = min(ans, acc_height)
-
+        return
 
     # 조합 구현
     # 해당 점원을 쓰는 경우
@@ -39,3 +39,4 @@ for tc in range(1, T + 1):
     heights = list(map(int, input().split()))
     ans = int(1e9)  # 차이의 최솟값
     recur(0, 0)
+    print(f'#{tc} {ans-B}')
