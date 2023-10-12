@@ -2,6 +2,7 @@
 # append(), popleft()
 from collections import deque
 
+
 def bfs(v):
     cnt = 0
     visited[v] = 1

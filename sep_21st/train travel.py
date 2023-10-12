@@ -59,6 +59,7 @@ else:
 
 # 다른 풀이
 import heapq
+
 n, e = map(int, input().split())
 graph = [[] for _ in range(n)]
 distance = [float('inf') for _ in range(n)]

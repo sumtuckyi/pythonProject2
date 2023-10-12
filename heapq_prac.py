@@ -34,6 +34,7 @@
 
 #
 import heapq
+
 N = int(input())  # 황금의 개수
 arr = list(map(int, input().split()))
 que = []  #황금과 짱돌을 저장할 최소 힙

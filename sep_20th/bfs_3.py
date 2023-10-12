@@ -1,6 +1,8 @@
 # 코딩던전
 # 주어진 골드로 입장 가능한 던전의 번호를 오름차순으로 출력
 from collections import deque
+
+
 def bfs():
     visited = [0]*(N+1)
     visited[0] = 1

@@ -1,7 +1,8 @@
 # 정렬이 끝난 리스트의 N//2번째 원소를 출력, 병합단계에서 왼쪽 마지막 원소가 오른쪽 집합의 마지막 원소보다 큰 경우를 카운트하여 출력
 # L[0:N//2], L[N//2:N]으로 분할
-from collections import deque
 import itertools
+from collections import deque
+
 T = int(input())
 
 

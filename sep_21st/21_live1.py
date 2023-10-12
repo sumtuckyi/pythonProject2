@@ -27,6 +27,7 @@
 '''
 import heapq
 
+
 def prim(start):
     heap = []
     # MST에 포함되었는지 여부

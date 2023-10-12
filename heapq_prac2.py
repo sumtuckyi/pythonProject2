@@ -1,3 +1,4 @@
+# 다른 풀이
 import heapq
 
 # N = int(input())  # 사람 수
@@ -12,8 +13,6 @@ import heapq
 #     print(heapq.heappop(d))
 
 
-# 다른 풀이
-import heapq
 
 max_heap = []  # mid보다 작은 값
 min_heap = []  # mid보다 큰 값
